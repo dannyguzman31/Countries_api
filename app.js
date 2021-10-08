@@ -86,6 +86,7 @@ route("/countries/:countryTitle")
     }
   )
 })
+
 // update a country data 
 .put(function(req, res){
   Country.replaceOne(
